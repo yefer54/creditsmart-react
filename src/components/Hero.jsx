@@ -2,6 +2,11 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <div>Hero</div>
+    <header className='hero'>
+      <div className= 'container'>
+        <h2>{title}</h2>
+        <p>{subtitle}</p>
+      </div>
+    </header>
   )
 }

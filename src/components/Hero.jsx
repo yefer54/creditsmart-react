@@ -1,6 +1,7 @@
 import React from 'react'
 
-export const Hero = () => {
+export const Hero = ({ title, subtitle }) => {
+
   return (
     <header className='hero'>
       <div className= 'container'>

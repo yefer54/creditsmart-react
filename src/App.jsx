@@ -16,7 +16,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/simulator' element={<Simulator />} />
+        <Route path='/simulador' element={<Simulator />} />
         <Route path='/solicitar' element={<Apply />} />
       </Routes>
 
@@ -26,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
